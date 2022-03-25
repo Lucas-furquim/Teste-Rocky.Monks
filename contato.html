@@ -1,0 +1,67 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo-gerais.css">
+  <link rel="stylesheet" href="css/contato.css">
+  <title>Teste Pratico</title>
+</head>
+
+<style>
+  li.cont::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 4.5rem;
+    height: 0.1rem;
+    background-color: #303dbb;
+    bottom: 0.8rem;
+    left: 2rem;
+  }
+
+  @media (max-width: 465px) {
+    li.cont::after {
+      left: 1rem;
+    }
+  }
+</style>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="nav home"><a class="link" href="index.html">Home</a></li>
+        <li class="nav ino"><a class="link" href="inovacao.html">Inovações</a></li>
+        <li class="nav cont"><a class="link" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <hgroup>
+      <div class="cabecalho">
+        <h1>A revolução da Progamação</h1>
+        <h2>Saiba tudo sobre a revolução da progamação</h2>
+      </div>
+
+      <section class="contato">
+        <h3 class="infor">Nome</h3>
+        <p class="pessoal infor">Lucas Vinicius Furquim de Almeida</p>
+        <h3 class="infor">Email</h3>
+        <p class="pessoal infor">lucasvinicius8970@gmail.com</p>
+        <h3 class="infor">Numero</h3>
+        <p class="pessoal infor">(15)997679644</p>
+        <h3>Redes sociais</h3>
+        <p><a href="https://github.com/Lucas-furquim?tab=repositories" rel="author" target="_blank">GitHub</a></p>
+      </section>
+    </hgroup>
+  </main>
+
+
+  <footer class="rodape">
+    <p>&copy; Todos os direitos reservados</p>
+    <p class="rodape-contato"><a href="https://www.flaticon.com/" rel="author" target="_blank" </a>autor dos icones</a></p>
+    <p>Feito por Lucas Vinicius Furquim</p>
+    <p class="rodape-contato"><a class="rodape-link" href="https://github.com/Lucas-furquim?tab=repositories" rel="author" target="_blank">GitHub</a> <span class="rodape-span">lucasvinicius8970@gmail.com</span> (15) 997679644</p>
+  </footer>
+
+  </html>

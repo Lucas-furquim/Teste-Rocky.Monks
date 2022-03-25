@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+
+p,
+h3 {
+  padding: 0rem;
+  margin-left: 3rem;
+}
+
+section p {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: #cf2424;
+  margin-top: 0.5rem;
+}
+
+.pessoal {
+  letter-spacing: 0.05rem;
+}

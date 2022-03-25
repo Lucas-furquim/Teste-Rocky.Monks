@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo-gerais.css">
+  <link rel="stylesheet" href="css/inovacao.css">
+  <title>Inovações entre os anos</title>
+  <style>
+    li.ino::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 5.5rem;
+      height: 0.1rem;
+      background-color: #303dbb;
+      bottom: 0.8rem;
+      left: 2rem;
+    }
+
+    @media (max-width: 465px) {
+      li.ino::after {
+        left: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="nav home"><a class="link" href="index.html">Home</a></li>
+        <li class="nav ino"><a class="link" href="inovacao.html">Inovações</a></li>
+        <li class="nav cont"><a class="link" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <hgroup>
+      <div class="cabecalho">
+        <h1>A revolução da Progamação</h1>
+        <h2>Saiba tudo sobre a revolução da progamação</h2>
+      </div>
+
+      <article class="frame">
+        <div class="frame-div">
+          <img class="linha-tempo f" src="img/linha-do-tempo.svg" alt="linha do tempo de 2019 a 2021" usemap="#meu-mapa">
+          <map name="meu-mapa">
+            <area class="area1" shape="circle" coords="105,280,20" href="inovacoesframe.html#2019" target="janela">
+            <area class="area2" shape="circle" coords="250,280,20" href="inovacoesframe.html#2020" target="janela">
+            <area class="area3" shape="circle" coords="390,280,20" href="inovacoesframe.html#2021" target="janela">
+          </map>
+        </div>
+        <iframe src="inovacoesframe.html" name="janela" class="frame-spec f" frameborder="1"></iframe>
+      </article>
+
+
+      <footer class="rodape ino">
+        <p>&copy; Todos os direitos reservados</p>
+        <p class="rodape-contato"><a href="https://www.flaticon.com/" rel="author" target="_blank" </a>autor dos icones</a></p>
+        <p>Feito por Lucas Vinicius Furquim</p>
+        <p class="rodape-contato info"><a class="rodape-link" href="https://github.com/Lucas-furquim?tab=repositories" rel="author" target="_blank">GitHub</a> <span class="rodape-span">lucasvinicius8970@gmail.com</span> (15) 997679644</p>
+      </footer>
+</body>
+
+</html>

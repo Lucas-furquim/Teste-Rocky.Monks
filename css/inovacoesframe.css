@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  text-align: left;
+  margin: 0rem;
+  text-indent: 1.1rem;
+}
+
+article h1 {
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.322);
+  padding: 0.3rem;
+  margin: 0rem;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  color: #888888;
+  margin: 0rem;
+}
+
+article {
+  margin-bottom: 50rem;
+}
+
+#topo {
+  margin-top: 7rem;
+}
+
+.img-dir {
+  display: block;
+}
+
+img.ia {
+  width: 13rem;
+}

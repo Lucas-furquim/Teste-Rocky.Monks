@@ -270,6 +270,12 @@ a:focus {
   color: red;
 }
 
+.frame-spec {
+  place-self: center;
+  grid-row: 1;
+  grid-column: 2;
+}
+
 @media (max-width: 1000px) {
   body {
     grid-template-columns: 100%;
@@ -282,14 +288,14 @@ a:focus {
     font-size: 2rem;
   }
 
-  article .principal img {
+  section.principal img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top center;
   }
 
-  article.secundario img {
+  section.secundario img {
     object-fit: cover;
     object-position: top center;
   }
@@ -297,24 +303,48 @@ a:focus {
   .adicional-titulo {
     font-size: 7ch;
   }
+
+  .area1 {
+    position: absolute;
+    left: 19%;
+    top: 50%;
+    width: 5%;
+    height: 8%;
+  }
+
+  .area2 {
+    position: absolute;
+    left: 47.5%;
+    top: 50%;
+    width: 5%;
+    height: 8%;
+  }
+
+  .area3 {
+    position: absolute;
+    left: 76%;
+    top: 50%;
+    width: 5%;
+    height: 8%;
+  }
 }
 
 @media (max-width: 850px) {
   header.cabecalho h1 {
     font-size: 5rem;
   }
-  article.principal {
+  section.principal {
     grid-template-columns: 1fr;
   }
-  article.secundario {
+  section.secundario {
     grid-template-columns: 1fr 1fr;
   }
 
-  article.principal p {
+  section.principal p {
     font-size: 1.7rem;
   }
 
-  article.secundario h3 {
+  section.secundario h3 {
     font-size: 1.5rem;
   }
 }
@@ -330,14 +360,14 @@ a:focus {
   div.cabecalho h1 {
     font-size: 3rem;
   }
-  article.secundario {
+  section.secundario {
     grid-template-columns: 1fr;
   }
-  article.secundario img {
-    width: 85%;
+  section.secundario img {
+    width: 90%;
   }
 
-  article.secundario p {
+  section.secundario p {
     font-size: 1.5rem;
   }
 }
@@ -346,6 +376,15 @@ a:focus {
   .infor {
     font-size: 1.5rem;
     word-break: break-all;
+  }
+
+  .frame-div {
+    grid-column: 1/-1;
+  }
+
+  .frame-spec {
+    grid-column: 1/-1;
+    grid-row: 2;
   }
 }
 
@@ -364,40 +403,6 @@ a:focus {
   .rodape-span::before {
     display: none;
   }
-
-  .frame-div {
-    grid-column: 1/-1;
-    align-content: end;
-  }
-
-  .frame-spec {
-    grid-column: 1/-1;
-    grid-row: 2;
-  }
-}
-
-.area1 {
-  position: absolute;
-  left: 19%;
-  top: 50%;
-  width: 5%;
-  height: 8%;
-}
-
-.area2 {
-  position: absolute;
-  left: 47.5%;
-  top: 50%;
-  width: 5%;
-  height: 8%;
-}
-
-.area3 {
-  position: absolute;
-  left: 76%;
-  top: 50%;
-  width: 5%;
-  height: 8%;
 }
 
 @media (max-width: 460px) {
